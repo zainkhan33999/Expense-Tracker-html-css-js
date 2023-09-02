@@ -1,0 +1,69 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+body{
+    background-image: url("https://productivityandmore.com/wp-content/uploads/2022/12/income-and-expenses-illustration.jpeg");
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    
+}
+.input-section{
+    margin: 15px;
+   display: flex;
+   flex-direction: column;
+
+}
+
+.input-section input , select {
+    /* background-color: rgb(24, 192, 170); */
+    padding:3.5px;
+}
+
+.input-section button {
+    margin: auto;
+    width: 80px;
+    padding: 7px;
+    color: whitesmoke;
+    background-color: rgb(31, 103, 170);
+    border-radius: 5px;
+}
+
+ table {
+width: 100%;
+}
+
+.expenses-list th {
+    background-color:rgb(59, 168, 182);
+color: black
+
+}
+
+.expenses-list td {
+    background-color: rgb(31, 103, 170);
+    padding: 10px;
+    border: 4px solid black ;
+    text-align: center;
+}
+
+.delete{
+    width: 80px;
+    padding: 7px;
+    color: white;
+    background-color:rgb(116, 37, 37);
+    border-radius: 5px;
+}
+.edit{
+    width: 80px;
+    padding: 7px;
+    color: white;
+    background-color:green;
+    border-radius: 5px;
+}
